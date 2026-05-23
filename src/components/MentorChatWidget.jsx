@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { supabase } from '../supabaseClient';
+import { supabase } from "../../lib/supabaseClient";
 import axios from 'axios';
 
 export default function MentorChatWidget({ repoId }) {

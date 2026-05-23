@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { supabase } from '../supabaseClient';
+import { supabase } from "../lib/supabaseClient";
 import { Icon } from '@iconify-icon/react';
 import Logo from '../assets/logo.png';
 

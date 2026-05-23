@@ -8,6 +8,9 @@ import Hotspots from './pages/hotspots';
 import RecentChanges from './pages/commitHistory';
 import PersonalBranding from './pages/personalBranding';
 
+console.log('URL:', import.meta.env.VITE_SUPABASE_URL);
+console.log('KEY:', import.meta.env.VITE_SUPABASE_ANON_KEY);
+console.log(import.meta.env);
 function App() {
   return (
     <Routes>

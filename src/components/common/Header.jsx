@@ -1,7 +1,7 @@
 import { Icon } from '@iconify-icon/react';
 import { useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
-import { supabase } from '../../supabaseClient'; 
+import { supabase } from "../../lib/supabaseClient";
 import Profile from '../../assets/pfp.png'; // Adjust path
 import PropTypes from 'prop-types';
 

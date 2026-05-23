@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useNavigate, useLocation, useParams } from 'react-router-dom';
 import axios from 'axios';
-import { supabase } from '../supabaseClient';
+import { supabase } from "../lib/supabaseClient";
 import MainLayout from '../components/common/MainLayout';
 
 export default function Dashboard() {
